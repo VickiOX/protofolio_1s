@@ -30,6 +30,7 @@ h1{
   font-weight: 900;
 }
 
+/*-------VELKOMMEN--------*/
 .vel_box{
   border: 2px dashed #2e2d22;
   text-align: center;
@@ -37,4 +38,55 @@ h1{
   font-size: xx-large;
   display: block;
   margin-top: 50%;
+}
+
+/*---------PORTOFOLIO----------*/
+.t2_box{
+  border: 2px dashed #2e2d22;
+  background-color: rgb(227, 238, 140);
+  width: 18%;
+  padding: 20% 14%;
+  margin: 5% 28% 10%;
+  display: block;
+  cursor: pointer;
+}
+
+.t3_box{
+  border: 2px dashed #2e2d22;
+  background-color: rgb(204, 243, 245);
+  width: 18%;
+  padding: 20% 14%;
+  margin: 5% 28% 10%;
+  display: block;
+  cursor: pointer;
+}
+
+.t4_box{
+  border: 2px dashed #2e2d22;
+  background-color: rgb(248, 214, 230);
+  width: 18%;
+  padding: 20% 14%;
+  margin: 5% 28% 10%;
+  display: block;
+  cursor: pointer;
+}
+
+
+.t5_box{
+  border: 2px dashed #2e2d22;
+  background-color: rgb(214, 222, 248);
+  width: 18%;
+  padding: 20% 14%;
+  margin: 5% 28% 10%;
+  display: block;
+  cursor: pointer;
+}
+
+.t2_a, .t3_a,  .t4_a, .t5_a{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 3.5vh;
+  display: block;
+  text-decoration: none;
 }
