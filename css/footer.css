@@ -1,0 +1,18 @@
+.sticky-footer{
+    position: sticky;
+    top: 100%;
+}
+
+
+  footer p{
+    text-align: right;
+    padding: 10% 2%;
+    margin: auto;
+    justify-content: center;
+    font-family: 'Source Sans Pro';
+    position: relative;
+  }
+  
+
+
+   

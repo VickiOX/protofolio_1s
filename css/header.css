@@ -1,11 +1,7 @@
 
-.container {
-    display: flex;
-    justify-content: space-between;
-  
-  }
-  
-  .hamburger {
+
+/*--------hamburger menu fra youtube: https://www.youtube.com/watch?v=OFKBep95lb4&t=873s--------*/
+.hamburger {
     position: relative;
     display: block;
     width: 35px;
@@ -17,33 +13,33 @@
     border: none;
     z-index: 3;
   }
-  
-  .hamburger .bar,
-  .hamburger:after,
-  .hamburger:before {
-    /* after og before er psheudo elementer der kan lave flere elementer til den det givet element*/
-    content: ""; /* content er none*/
-    display: block;
-    width: 100%;
-    height: 5px;
-    background-color: #2e2d2e;
-    margin: 6px 0;
-    transition: 0.4s;
-  }
-  
-  .hamburger.is-active:before {
-    transform: rotate(-45deg) translate(-8px, 6px);
-  }
-  
-  .hamburger.is-active .bar {
-    opacity: 0;
-  }
-  
-  .hamburger.is-active:after {
-    transform: rotate(45deg) translate(-9px, -8px);
-  }
-  
-  .mobil-nav {
+
+.hamburger .bar,
+.hamburger:after,
+.hamburger:before {
+  /* after og before er psheudo elementer der kan lave flere elementer til den det givet element*/
+  content: ""; /* content er none*/
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: #2e2d2e;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.hamburger.is-active:before {
+  transform: rotate(-45deg) translate(-8px, 6px);
+}
+
+.hamburger.is-active .bar {
+  opacity: 0;
+}
+
+.hamburger.is-active:after {
+  transform: rotate(45deg) translate(-9px, -8px);
+}
+
+.mobil-nav {
     margin-top: 105px;
     display: block;
     top: 0;
@@ -52,7 +48,7 @@
     min-height: 100vh;
     position: fixed;
     z-index: 2;
-    background-color: #f5f5f5df;
+    background-color: #f5f5f586;
     padding-top: 140px;
     transition: 0.4s;
   }
@@ -69,19 +65,20 @@
     text-align: center;
     padding: 16px;
     background-color: rgba(212, 210, 210, 0.748);
-    color:#f5f5f5;
+    color: #2e2d2e;
     border-radius: 6px;
-    box-shadow: 6px 6px 1px 1px #2e2d2e;
+    box-shadow: 6px 6px 1px 1px rgb(177, 113, 113);
   }
   
+
   .nav_link {
     font-size: 18px;
     font-weight: 300;
     background: rgba(212, 210, 210, 0.254);
-    box-shadow: 6px 6px 1px 1px #2e2d2e;
+    box-shadow: 6px 6px 1px 1px rgb(177, 113, 113);
     padding: 10px;
     margin: 0 5px;
-    color: #f5f5f5;
+    color:  #2e2d2e;
     text-decoration: none;
     border-radius: 6px;
     display: none;
@@ -89,8 +86,8 @@
   }
   
   .nav_link:hover {
-    background: #f5f5f5;
-    color: var(--primary-color);
+    background:  #2e2d2e;
+    color: #f5f5f5;
   }
   
   li {
@@ -98,8 +95,7 @@
     display: flex;
     padding: 0 16px;
   }
-  
-  
+
   .nav-text {
     text-align: center;
     flex-grow: 1;
@@ -107,11 +103,10 @@
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 16px;
-    color: #2e2d2e;
+    color:  #2e2d2e;
     margin-top: 20px;
   }
 
-/*----sticky ----*/
   .sticky {
     position: fixed;
     top: 0;
@@ -121,25 +116,24 @@
   .sticky + .content {
     padding-top: 102px;
   }
-  
+
 
   @media (min-width: 800px) {
-  .mobil-nav {
-    display: none;
-  }
+    .mobil-nav {
+        display: none;
+      }
+    
+      .hamburger {
+        display: none;
+      }
+      
+    .nav_link {
+        display: inline-block;
+    }
 
-  .hamburger {
-    display: none;
+    nav {
+        position: relative;
+        margin: auto;
+        padding-right: 60px;
+      }
   }
-
-  .nav_link {
-    display: inline-block;
-  }
-
-
-  nav {
-    position: relative;
-    margin: auto;
-    padding-right: 60px;
-  }
-}
