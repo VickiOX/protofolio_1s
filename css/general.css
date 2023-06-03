@@ -1,0 +1,9 @@
+*{
+    max-width:1200px;
+    max-height:1000px;
+}
+
+body{
+  background-image: url(../img/grid.png);
+  background-size: 60%;
+}
