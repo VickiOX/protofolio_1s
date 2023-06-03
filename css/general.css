@@ -39,11 +39,13 @@ h1{
   display: block;
   margin-top: 50%;
 }
+/*------------------------------*/
+
 
 /*---------PORTOFOLIO----------*/
 .t2_box{
   border: 2px dashed #2e2d22;
-  background-color: rgb(227, 238, 140);
+  background-color: rgba(226, 238, 140, 0.582);
   width: 18%;
   padding: 20% 14%;
   margin: 5% 28% 10%;
@@ -53,7 +55,7 @@ h1{
 
 .t3_box{
   border: 2px dashed #2e2d22;
-  background-color: rgb(204, 243, 245);
+  background-color: rgb(204, 243, 245, 0.582);
   width: 18%;
   padding: 20% 14%;
   margin: 5% 28% 10%;
@@ -63,7 +65,7 @@ h1{
 
 .t4_box{
   border: 2px dashed #2e2d22;
-  background-color: rgb(248, 214, 230);
+  background-color: rgb(248, 214, 230, 0.582);
   width: 18%;
   padding: 20% 14%;
   margin: 5% 28% 10%;
@@ -74,7 +76,7 @@ h1{
 
 .t5_box{
   border: 2px dashed #2e2d22;
-  background-color: rgb(214, 222, 248);
+  background-color: rgba(214, 222, 248,  0.582);
   width: 18%;
   padding: 20% 14%;
   margin: 5% 28% 10%;
@@ -90,3 +92,27 @@ h1{
   display: block;
   text-decoration: none;
 }
+
+/*------------------------*/
+
+/*-----om--------*/
+#img_1{
+width: 44%;
+display: block;
+margin: auto;
+z-index: 1;
+position:fixed;
+top: 18%;
+right: 28%;
+
+}
+
+.img_box{
+  border: 2px dashed #2e2d22;
+  background-color: rgba(210, 253, 209, 0.582);
+  width: 30%;
+  padding: 46% 14% 40%;
+  margin: 15% 20%;
+  display: block;
+}
+/*--------------------*/
