@@ -15,8 +15,8 @@ html {
     outline: none;
     border: none;
     z-index: 3;
-    top:3px;
-    right:10px;
+    top:0;
+    right:0;
   }
 
 .hamburger .bar,
@@ -116,9 +116,11 @@ html {
 
   .sticky {
     position: fixed;
-    top: 0;
+    top: 2.2%;
     width: 100%;
+    z-index: 3;
   }
+  
   
   .sticky + .content {
     padding-top: 102px;
@@ -136,11 +138,13 @@ html {
       
     .nav_link {
         display: inline-block;
-    }
+        margin-top: 4%;
+        }
 
     nav {
-        position: relative;
+        position: absolute;
         margin: auto;
-        padding-right: 60px;
+      top:0;
+      right:2%;
       }
   }

@@ -1,6 +1,5 @@
-*{
-    max-width:1200px;
-    max-height:1000px;
+html {
+  scroll-behavior: smooth;
 }
 
 body{
@@ -43,7 +42,7 @@ h1{
   display: block;
   margin-top: 50%;
   box-shadow: 6px 6px 1px 1px #40404081;
-  text-shadow: 2px 2px #40404081;
+  text-shadow: 2px 3px #40404081;
 }
 /*------------------------------*/
 
@@ -60,7 +59,7 @@ h1{
   display: block;
   cursor: pointer;
   box-shadow: 6px 6px 1px 1px #40404081;
-  text-shadow: 2px 2px  rgba(128, 134, 80, 0.959);
+  text-shadow:2px 3px rgba(128, 134, 80, 0.959);
 }
 
 .t3_box{
@@ -72,7 +71,7 @@ h1{
   display: block;
   cursor: pointer;
   box-shadow: 6px 6px 1px 1px #40404081;
-  text-shadow: 2px 2px rgba(142, 169, 171, 0.888);
+  text-shadow:2px 3px rgba(142, 169, 171, 0.888);
 }
 
 .t4_box{
@@ -84,7 +83,7 @@ h1{
   display: block;
   cursor: pointer;
   box-shadow: 6px 6px 1px 1px #40404081;
-  text-shadow: 2px 2px  rgba(187, 155, 170, 0.92);
+  text-shadow:2px 3px rgba(187, 155, 170, 0.92);
 }
 
 
@@ -97,7 +96,7 @@ h1{
   display: block;
   cursor: pointer;
   box-shadow: 6px 6px 1px 1px #40404081;
-  text-shadow: 2px 2px rgba(147, 156, 185, 0.916);
+  text-shadow: 2px 3px rgba(147, 156, 185, 0.916);
 }
 
 .t2_a, .t3_a,  .t4_a, .t5_a{
@@ -144,3 +143,16 @@ h1{
   margin-left: 2%;
 }
 /*--------------------*/
+
+
+/*-------------webformat----------*/
+
+
+@media (min-width: 800px) {
+  main {
+    margin: auto;
+    max-width: 1200px;
+  }
+  
+  
+}
