@@ -42,6 +42,7 @@ h1{
   font-size: xx-large;
   display: block;
   margin-top: 50%;
+  box-shadow: 6px 6px 1px 1px #40404081;
 }
 /*------------------------------*/
 
@@ -57,6 +58,7 @@ h1{
   margin: 5% 28% 10%;
   display: block;
   cursor: pointer;
+  box-shadow: 6px 6px 1px 1px #40404081;
 }
 
 .t3_box{
@@ -67,6 +69,7 @@ h1{
   margin: 5% 28% 10%;
   display: block;
   cursor: pointer;
+  box-shadow: 6px 6px 1px 1px #40404081;
 }
 
 .t4_box{
@@ -77,6 +80,7 @@ h1{
   margin: 5% 28% 10%;
   display: block;
   cursor: pointer;
+  box-shadow: 6px 6px 1px 1px #40404081;
 }
 
 
@@ -88,6 +92,7 @@ h1{
   margin: 5% 28% 10%;
   display: block;
   cursor: pointer;
+  box-shadow: 6px 6px 1px 1px #40404081;
 }
 
 .t2_a, .t3_a,  .t4_a, .t5_a{
@@ -108,17 +113,6 @@ h1{
   top:5%;
   bottom: 100%;
 }
-#img_1{
-width: 44%;
-display: block;
-margin: auto;
-z-index: 1;
-position:absolute;
-top: -12%;
-right: 28%;
-
-}
-
 .img_box{
   border: 2px dashed #2e2d22;
   /*background-color: rgba(253, 209, 248, 0.582);*/
@@ -127,7 +121,19 @@ right: 28%;
   padding: 46% 14% 40%;
   margin: 15% 20%;
   display: block;
+  box-shadow: 6px 6px 1px 1px #40404081;
 }
+
+#img_1{
+  width: 44%;
+  display: block;
+  margin: auto;
+  z-index: 1;
+  position:absolute;
+  top: -12%;
+  right: 28%;
+  
+  }
 
 .om_text{
   margin-left: 2%;
