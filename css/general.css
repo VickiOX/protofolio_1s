@@ -141,6 +141,7 @@ h1{
 
 .om_text{
   margin-left: 2%;
+  font-size: 2.1vh;
 }
 /*--------------------*/
 
@@ -154,5 +155,27 @@ h1{
     max-width: 1200px;
   }
   
-  
+
+  /*-------VELKOMMEN----------*/
+  .vel_box{
+    padding: 6% 0;
+    display: block;
+    margin-top: 22%;
+
+  }
+
+    /*--------------------*/
+
+
+    /*---------OM---------*/
+    .grid_1-1{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .om_text{
+      margin-top: 33%;
+      font-size: 2.2vh;
+    }
+  /*----------------*/
 }
