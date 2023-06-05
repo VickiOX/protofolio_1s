@@ -24,6 +24,10 @@ h6 {
   font-family: "Raleway";
 }
 
+#overskrift{
+  margin-left:2%;
+  font-size: xx-large;
+}
 
 h1{
   font-size: 3.5vh;
@@ -96,23 +100,34 @@ h1{
 /*------------------------*/
 
 /*-----om--------*/
+
+.om_box{
+  position: relative;
+  top:5%;
+  bottom: 100%;
+}
 #img_1{
 width: 44%;
 display: block;
 margin: auto;
 z-index: 1;
-position:fixed;
-top: 18%;
+position:absolute;
+top: -12%;
 right: 28%;
 
 }
 
 .img_box{
   border: 2px dashed #2e2d22;
-  background-color: rgba(210, 253, 209, 0.582);
+  /*background-color: rgba(253, 209, 248, 0.582);*/
+  background-color: #9b9a9a54;
   width: 30%;
   padding: 46% 14% 40%;
   margin: 15% 20%;
   display: block;
+}
+
+.om_text{
+  margin-left: 2%;
 }
 /*--------------------*/
