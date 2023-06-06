@@ -4,6 +4,16 @@ html {
 }
 
 /*--------hamburger menu fra youtube: https://www.youtube.com/watch?v=OFKBep95lb4&t=873s--------*/
+
+.container{
+  background-color: #f5f5f596;
+}
+#myHeader{
+  background-color: #f5f5f596;
+  position: fixed;
+  top: 2.2%;
+  width: 100%;
+}
 .hamburger {
     position: absolute;
     display: block;
@@ -53,7 +63,6 @@ html {
     min-height: 100vh;
     position: fixed;
     z-index: 2;
-    background-color: #f5f5f586;
     padding-top: 68%;
     transition: 0.4s;
   }
@@ -111,7 +120,7 @@ html {
     font-size: 16px;
     color:  #2e2d2e;
     margin-top: 20px;
-    background-color: #f5f5f596;
+
   }
 
   .sticky {
@@ -147,4 +156,9 @@ html {
       top:0;
       right:2%;
       }
+      #overskrift{
+        margin-top: 13%;
+        margin-left:18%;
+      }
+
   }
