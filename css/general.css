@@ -52,6 +52,11 @@ h1{
   font-weight: 900;
 }
 
+h2{
+  margin-top:4%;
+  font-size: 3vh;
+}
+
 /*-------VELKOMMEN--------*/
 .vel_box{
   border: 2px dashed #2e2d22;
@@ -214,13 +219,15 @@ h1{
     max-width: 1200px;
     margin-top: 8%;
   }
-  
+
+
 
   /*-------VELKOMMEN----------*/
   .vel_box{
     padding: 6% 0;
     display: block;
     margin-top: 22%;
+    padding:10% 20%;
 
   }
 
@@ -266,8 +273,8 @@ h1{
     }
 
     .om_text{
-      margin-top: 23%;
-      font-size: 2.2vh;
+      margin-top: 12%;
+      font-size: 2vh;
     }
 
     .om_box{
