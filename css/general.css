@@ -17,6 +17,7 @@ body{
 
 main{
   margin-top:34%;
+  min-height: calc(100vh - 200px);
 }
 
 
@@ -64,9 +65,14 @@ h2{
   padding: 6% 0;
   font-size: xx-large;
   display: block;
-  margin-top: 80%;
+
   box-shadow: 6px 6px 1px 1px #40404081;
   text-shadow: 2px 3px #40404081;
+}
+
+.img_b{
+  margin-top: 10%;
+  width:10%;
 }
 /*------------------------------*/
 
@@ -163,6 +169,7 @@ h2{
   text-decoration: none;
 }
 
+
 /*------------------------*/
 
 /*-----om--------*/
@@ -198,6 +205,16 @@ h2{
   margin-left: 2%;
   font-size: 2.1vh;
 }
+
+.om_b{
+  width: 20%;
+  display: block;
+  margin: auto;
+  z-index: 2;
+  position:absolute;
+  top: -24%;
+  left: 16%;
+}
 /*--------------------*/
 
 
@@ -219,14 +236,13 @@ h2{
     max-width: 1200px;
     margin-top: 8%;
   }
-
+  
 
 
   /*-------VELKOMMEN----------*/
   .vel_box{
     padding: 6% 0;
     display: block;
-    margin-top: 22%;
     padding:10% 20%;
 
   }
