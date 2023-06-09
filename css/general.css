@@ -59,20 +59,37 @@ h2{
 }
 
 /*-------VELKOMMEN--------*/
-.vel_box{
-  border: 2px dashed #2e2d22;
-  text-align: center;
-  padding: 6% 0;
-  font-size: xx-large;
-  display: block;
-
-  box-shadow: 6px 6px 1px 1px #40404081;
-  text-shadow: 2px 3px #40404081;
+.img_b1{
+  max-width:100%;
+  position: absolute;
+}
+.vel_text{
+  position: absolute;
+  z-index: 1;
+  margin-top: 27%;
+  margin-left: 25%;
+  font-size: 3.5vh;
 }
 
-.img_b{
-  margin-top: 10%;
-  width:10%;
+.vel_text2{
+  position: absolute;
+  z-index: 1;
+  margin-top: 37%;
+  margin-left: 22%;
+  font-size: 3.5vh;
+}
+.made_by{
+  position: absolute;
+  z-index: 1;
+  margin-top: 50%;
+  margin-left: 8%;
+  font-size: 1.5vh;
+}
+
+.forside_box{
+  position: relative;
+  top:5%;
+  bottom: 100%;
 }
 /*------------------------------*/
 
@@ -168,7 +185,11 @@ h2{
   display: block;
   text-decoration: none;
 }
-
+.img_b2{
+  max-width: 50%;
+  display: block;
+  margin: auto;
+}
 
 /*------------------------*/
 
@@ -178,6 +199,7 @@ h2{
   position: relative;
   top:5%;
   bottom: 100%;
+  z-index: 1;
 }
 .img_box{
   border: 2px dashed #2e2d22;
@@ -187,17 +209,20 @@ h2{
   padding: 34% 14% 40%;
   margin: 8% 18%;
   display: block;
-  box-shadow: 6px 6px 1px 1px #40404081;
+  position: absolute;
+  box-shadow: 6px 6px 1px 1px #404040ea;
+  z-index: 2;
 }
 
 #img_1{
-  width: 38%;
+  width: 70%;
   display: block;
   margin: auto;
   z-index: 1;
   position:absolute;
   top: -12%;
-  right: 35.5%;
+  right: 14.5%;
+  z-index: 3;
   
   }
 
@@ -206,14 +231,26 @@ h2{
   font-size: 2.1vh;
 }
 
-.om_b{
-  width: 20%;
-  display: block;
-  margin: auto;
-  z-index: 2;
-  position:absolute;
-  top: -24%;
-  left: 16%;
+#om_img_1{
+  max-width: 31%; 
+  z-index: 0;
+  margin-top:20%;
+  margin-left: -13%;
+  position: absolute;
+
+}
+
+#om_img_2{
+  max-width: 8%; 
+  z-index: 4;
+  margin-top:45%;
+  margin-left: 12%;
+  position: absolute;
+
+}
+
+.om_textbox{
+  margin-top: 40%;
 }
 /*--------------------*/
 
@@ -237,11 +274,27 @@ h2{
 
 
   /*-------VELKOMMEN----------*/
-  .vel_box{
-    padding: 6% 0;
-    display: block;
-    padding:10% 20%;
-
+  .vel_text{
+    position: absolute;
+    z-index: 1;
+    margin-top: 27%;
+    margin-left: 31%;
+    font-size: 7.5vh;
+  }
+  
+  .vel_text2{
+    position: absolute;
+    z-index: 1;
+    margin-top: 37%;
+    margin-left: 28%;
+    font-size: 7.5vh;
+  }
+  .made_by{
+    position: absolute;
+    z-index: 1;
+    margin-top: 50%;
+    margin-left: 8%;
+    font-size: 3.5vh;
   }
 
     /*--------------------*/

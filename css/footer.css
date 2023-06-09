@@ -8,7 +8,6 @@ html {
     position: absolute;
     bottom: 1%;
     right:1%;
-    z-index:10002;
     color: #2e2d2e;
     font-size: x-large;
   }
