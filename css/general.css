@@ -16,16 +16,10 @@ body{
   
 }
 
-<<<<<<< HEAD
 .main{
   padding-top: 131px;
   margin-left: 20px;
 margin-right: 20px;
-=======
-main{
-  margin-top:34%;
-  min-height: calc(100vh - 200px);
->>>>>>> e2ad640736ae4c6e3a088ecf71b6f9497f0948ba
 }
 
 
@@ -60,13 +54,7 @@ h1{
   font-weight: 900;
 }
 
-h2{
-  margin-top:4%;
-  font-size: 3vh;
-}
-
 /*-------VELKOMMEN--------*/
-<<<<<<< HEAD
 .vel_box{
   border: 2px dashed #2e2d22;
   text-align: center;
@@ -83,39 +71,6 @@ h2{
 .madeby{
   padding-bottom: 30%;
   text-align: center;
-=======
-.img_b1{
-  max-width:100%;
-  position: absolute;
-}
-.vel_text{
-  position: absolute;
-  z-index: 1;
-  margin-top: 27%;
-  margin-left: 25%;
-  font-size: 3.5vh;
-}
-
-.vel_text2{
-  position: absolute;
-  z-index: 1;
-  margin-top: 37%;
-  margin-left: 22%;
-  font-size: 3.5vh;
-}
-.made_by{
-  position: absolute;
-  z-index: 1;
-  margin-top: 50%;
-  margin-left: 8%;
-  font-size: 1.5vh;
-}
-
-.forside_box{
-  position: relative;
-  top:5%;
-  bottom: 100%;
->>>>>>> e2ad640736ae4c6e3a088ecf71b6f9497f0948ba
 }
 /*------------------------------*/
 
@@ -211,11 +166,6 @@ h2{
   display: block;
   text-decoration: none;
 }
-.img_b2{
-  max-width: 50%;
-  display: block;
-  margin: auto;
-}
 
 /*------------------------*/
 
@@ -225,7 +175,6 @@ h2{
   position: relative;
   top:5%;
   bottom: 100%;
-  z-index: 1;
 }
 .img_box{
   border: 2px dashed #2e2d22;
@@ -235,20 +184,17 @@ h2{
   padding: 34% 14% 40%;
   margin: 8% 18%;
   display: block;
-  position: absolute;
-  box-shadow: 6px 6px 1px 1px #404040ea;
-  z-index: 2;
+  box-shadow: 6px 6px 1px 1px #40404081;
 }
 
 #img_1{
-  width: 70%;
+  width: 38%;
   display: block;
   margin: auto;
   z-index: 1;
   position:absolute;
   top: -12%;
-  right: 14.5%;
-  z-index: 3;
+  right: 35.5%;
   
   }
 
@@ -256,39 +202,14 @@ h2{
   margin-left: 2%;
   font-size: 2.1vh;
 }
-
-#om_img_1{
-  max-width: 31%; 
-  z-index: 0;
-  margin-top:20%;
-  margin-left: -13%;
-  position: absolute;
-
-}
-
-#om_img_2{
-  max-width: 8%; 
-  z-index: 4;
-  margin-top:45%;
-  margin-left: 12%;
-  position: absolute;
-
-}
-
-.om_textbox{
-  margin-top: 40%;
-}
 /*--------------------*/
 
 
 /*---------------t2----------------*/
 /* få til bageknap til at show mobil format som i web*/
-<<<<<<< HEAD
 .tilbage_knap{
   display:inline !important;
 }
-=======
->>>>>>> e2ad640736ae4c6e3a088ecf71b6f9497f0948ba
 
 ._img{
   max-width: 600px;
@@ -315,7 +236,6 @@ h2{
   }
   
 
-<<<<<<< HEAD
   /*-------VELKOMMEN----------*/
   .vel_box{
     display: block;
@@ -323,31 +243,7 @@ h2{
     margin-right: 60px;
     margin-left: 60px;
     margin-bottom: 2%;
-=======
->>>>>>> e2ad640736ae4c6e3a088ecf71b6f9497f0948ba
 
-  /*-------VELKOMMEN----------*/
-  .vel_text{
-    position: absolute;
-    z-index: 1;
-    margin-top: 27%;
-    margin-left: 31%;
-    font-size: 7.5vh;
-  }
-  
-  .vel_text2{
-    position: absolute;
-    z-index: 1;
-    margin-top: 37%;
-    margin-left: 28%;
-    font-size: 7.5vh;
-  }
-  .made_by{
-    position: absolute;
-    z-index: 1;
-    margin-top: 50%;
-    margin-left: 8%;
-    font-size: 3.5vh;
   }
 
   .madeby{
@@ -397,12 +293,7 @@ h2{
     }
 
     .om_text{
-<<<<<<< HEAD
       font-size: 2.2vh;
-=======
-      margin-top: 12%;
-      font-size: 2vh;
->>>>>>> e2ad640736ae4c6e3a088ecf71b6f9497f0948ba
     }
     .padding-top{
       padding-top:100px;
@@ -445,3 +336,5 @@ h2{
     /*-----------------*/
 
 }
+
+
