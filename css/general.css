@@ -212,10 +212,10 @@ h1{
 
 .form-heading {
   font-family: "Arial", sans-serif;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 400;
   color: #2e2d2e;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   transition: all 0.3s;
 }
 
@@ -225,8 +225,8 @@ h1{
 }
 
 .contact-form-input {
-  width: 50rem;
-  height: 5rem;
+  width: 20rem;
+  height: 3rem;
   padding: 0.5rem;
   margin: 1rem 0;
   background-color: rgba(255, 255, 255, 0.4);
@@ -375,6 +375,33 @@ h1{
     .om_col{
       padding-right: 60px;
     }
+    /*kontakt fomular*/
+    .kontakt_container {
+     
+      
+     
+    }
+    
+    .form-heading {
+      font-size: 4rem;
+      margin-bottom: 3rem;
+      transition: all 0.3s;
+    }
+    
+    
+    .contact-form-input {
+      width: 50rem;
+      height: 5rem;
+    }
+    
+  
+    .form-submit-btn {
+      width: 14rem;
+      height: 5rem;
+      margin-top: 2vh;
+      margin-bottom: 30px;
+    }
+    
 
   /*----------------*/
 
