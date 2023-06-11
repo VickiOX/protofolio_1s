@@ -29,3 +29,29 @@ window.onload = function (){
   }
   }
   
+
+
+
+
+//kontakt fomular
+
+const formHeading = document.querySelector(".form-heading");
+const formInputs = document.querySelectorAll(".contact-form-input");
+
+formInputs.forEach((input) => {
+  input.addEventListener("focus", () => {
+    formHeading.style.opacity = "0";
+    setTimeout(() => {
+      formHeading.textContent = `Dit ${input.placeholder}`;
+      formHeading.style.opacity = "1";
+    }, 300);
+  });
+
+  input.addEventListener("blur", () => {
+    formHeading.style.opacity = "0";
+    setTimeout(() => {
+      formHeading.textContent = "Las os snakke";
+      formHeading.style.opacity = "1";
+    }, 300);
+  });
+});
