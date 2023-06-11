@@ -42,8 +42,15 @@ formInputs.forEach((input) => {
   input.addEventListener("focus", () => {
     formHeading.style.opacity = "0";
     setTimeout(() => {
-      formHeading.textContent = `Dit ${input.placeholder}`;
+      
       formHeading.style.opacity = "1";
+
+      if(input.placeholder === `Email` || input.placeholder === 'Besked') { //|| = eller også kaldes for pipe
+        formHeading.textContent = `Din ${input.placeholder}`;
+      }
+      else{
+        formHeading.textContent = `Dit ${input.placeholder}`;
+      }
     }, 300);
   });
 

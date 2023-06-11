@@ -13,7 +13,7 @@ html {
   position: fixed;
   top: 2.2%;
   width: 100%;
-  z-index: 5;
+  z-index: 14;
 }
 .hamburger {
     position: absolute;
@@ -25,7 +25,7 @@ html {
     background: none;
     outline: none;
     border: none;
-    z-index: 3;
+    z-index: 12;
     top:0;
     right:0;
   }
@@ -63,7 +63,7 @@ html {
     width: 100%;
     min-height: 100vh;
     position: fixed;
-    z-index: 2;
+    z-index: 11;
     padding-top: 68%;
     transition: 0.4s;
     background-color: #a4a4a4b0;
@@ -129,7 +129,7 @@ html {
     position: fixed;
     top: 2.2%;
     width: 100%;
-    z-index: 3;
+    z-index: 13;
   }
   
   

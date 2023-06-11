@@ -35,7 +35,10 @@ footer .footer_text {
   bottom: 0;
   left: 0;
 }
-
+.img_b1{
+  width:10vh;
+  padding-top: 0px;
+}
 section .img_b {
   animation: sailing 30s linear infinite;
   z-index: 999;
@@ -126,12 +129,12 @@ section .wave.wave4 {
 
   75% {
     rotate: -2deg;
-    translate: 75% -20%;
+    translate: 75% -40%;
   }
 
   100% {
     transform: translateX(200vh);
-    translate: 100% 100%;
+    translate: 100% -10%;
     rotate: -4deg;
   }
 }
@@ -229,13 +232,13 @@ section .wave.wave4 {
     }
 
     50% {
-      rotate: 6deg;
-      translate: 50% -80%;
+      rotate: 5deg;
+      translate: 50% -70%;
     }
 
     75% {
       rotate: -2deg;
-      translate: 75% -20%;
+      translate: 75% -30%;
     }
 
     100% {
