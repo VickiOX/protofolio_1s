@@ -11,16 +11,19 @@ html {
 body{
  background-image: url(../img/grid.png);
   background-size: 60%;
-  min-height: 100vh;
-
+  position: relative;
+  min-height: calc(100vh - 500px)
+  
 }
 
-main{
-  margin-top:34%;
+.main{
+  padding-top: 131px;
+  margin-left: 20px;
+margin-right: 20px;
 }
 
 
-main p{
+.main p{
   margin-top: 3%;
   font-size: x-large;
   font-weight: 500;
@@ -44,7 +47,6 @@ h6 {
 #overskrift{
   margin-left:2%;
   font-size: xx-large;
-  margin-top: 20%;
 }
 
 h1{
@@ -59,9 +61,16 @@ h1{
   padding: 6% 0;
   font-size: xx-large;
   display: block;
-  margin-top: 80%;
+  margin-top: 40%;
+  margin-bottom: 5%;
   box-shadow: 6px 6px 1px 1px #40404081;
   text-shadow: 2px 3px #40404081;
+
+}
+
+.madeby{
+  padding-bottom: 30%;
+  text-align: center;
 }
 /*------------------------------*/
 
@@ -199,9 +208,20 @@ h1{
 /*---------------t2----------------*/
 /* få til bageknap til at show mobil format som i web*/
 .tilbage_knap{
-  display: show;
+  display:inline !important;
 }
 
+._img{
+  max-width: 600px;
+  display: block;
+  margin: auto;
+}
+
+
+.t_overskrift{
+  padding-top:60px;
+  font-size: 50px;
+}
 /*--------------------------*/
 
 
@@ -218,10 +238,17 @@ h1{
 
   /*-------VELKOMMEN----------*/
   .vel_box{
-    padding: 6% 0;
     display: block;
-    margin-top: 22%;
+    margin-top: 14%;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-bottom: 2%;
 
+  }
+
+  .madeby{
+    padding-bottom: 10%;
+    text-align: center;
   }
 
     /*--------------------*/
@@ -266,8 +293,10 @@ h1{
     }
 
     .om_text{
-      margin-top: 23%;
       font-size: 2.2vh;
+    }
+    .padding-top{
+      padding-top:100px;
     }
 
     .om_box{
@@ -275,11 +304,37 @@ h1{
       left:4%;
     }
 
-    #overskrift{
-      margin-top: 6%;
+    .center_text{
+      text-align: center;
+    }
+
+    .om_col{
+      padding-right: 60px;
     }
 
   /*----------------*/
+
+  /*---------------t2-------------*/
+
+  .grid3_1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+    }
+
+    .t_indhold{
+      padding-right: 60px;
+      padding-left: 60px ;
+      
+    }
+
+    .mid_t_text{
+      padding-right:20vh;
+      padding-left: 20vh;
+    }
+
+    /*-----------------*/
+
 }
 
 
