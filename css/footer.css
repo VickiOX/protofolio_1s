@@ -29,6 +29,7 @@ footer .footer_text {
   font-size: x-large;
 }
 
+<<<<<<< HEAD
 .img_b {
   width: 10vh;
   position: absolute;
@@ -245,3 +246,22 @@ section .wave.wave4 {
     }
   }
 }
+=======
+  footer p {
+    font-family: 'Source Sans Pro';
+    position: absolute;
+    bottom: 1%;
+    right:1%;
+    color: #2e2d2e;
+    font-size: x-large;
+  }
+
+.move_b{
+  position: absolute;
+  bottom: 4%;
+  right:1%;
+  width: 6%;
+}
+
+
+>>>>>>> e2ad640736ae4c6e3a088ecf71b6f9497f0948ba
