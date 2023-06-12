@@ -453,6 +453,39 @@ padding-top: 108%;
   font-size: 2.1vh;
   
 }
+.pointer{
+  cursor: pointer;
+  font-weight: 700;
+}
+.text-center{
+  text-align: center;
+}
+
+.customers {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.customers td, .customers th {
+  border: 1px dashed #2e2d22;
+  padding: 8px;
+}
+
+.customers tr:nth-child(even){background-color: #f2f2f2;}
+
+.customers tr:hover {background-color: #ddd;}
+
+.customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:var(--secondary-color);
+  color: var(--primary-color);
+  font-size: 26px;
+
+}
+
+
 /*kontakt fomular youtube video: https://youtu.be/vKsSWy5JhUo*/
 .kontakt_container {
   width: 100%;
