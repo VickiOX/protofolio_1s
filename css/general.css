@@ -159,7 +159,7 @@ padding-top: 108%;
   position: absolute;
   z-index: 4;
   left: 50%;
-  translate: -50% 0%;
+  transform:translate( -50% 0%);
 }
 
 .screen1:before {
@@ -307,14 +307,14 @@ padding-top: 108%;
 .screen1 > .screen-content1 > .screen-user1:before {
   height: 2px;
   width: 50px;
-  translate: -20px -1rem;
+  transform:translate(-20px -1rem);
   opacity: 0.75;
 }
 
 .screen1 > .screen-content1 > .screen-user1:after {
   height: 3px;
   width: 30px;
-  translate: 26px calc(-1rem - 0.5px);
+  transform:translate(26px calc(-1rem - 0.5px));
 }
 
 .screen1 > .screen-content1 > .screen-user1 > :is(.name1, .link1) {
@@ -804,7 +804,7 @@ padding-top: 108%;
     position: absolute;
     z-index: 4;
     left: 50%;
-    translate: -50% 0%;
+    transform:translate(-50% 0%);
   }
   
   .screen:before {
@@ -892,14 +892,14 @@ padding-top: 108%;
   .screen > .screen-content > .screen-user:before {
     height: 2px;
     width: 50px;
-    translate: -20px -1rem;
+    transform: translate(-20px -1rem);
     opacity: 0.75;
   }
   
   .screen > .screen-content > .screen-user:after {
     height: 3px;
     width: 30px;
-    translate: 26px calc(-1rem - 0.5px);
+    transform:translate(26px calc(-1rem - 0.5px));
   }
   
   .screen > .screen-content > .screen-user > :is(.name, .link) {
@@ -968,7 +968,7 @@ padding-top: 108%;
     position: absolute;
     z-index: 4;
     left: 50%;
-    translate: -50% 0%;
+    transform: translate( -50% 0%);
   }
   
   .screen2:before {
@@ -1056,14 +1056,14 @@ padding-top: 108%;
   .screen2 > .screen-content2 > .screen-user2:before {
     height: 2px;
     width: 50px;
-    translate: -20px -1rem;
+    transform:translate(-20px -1rem);
     opacity: 0.75;
   }
   
   .screen2 > .screen-content2 > .screen-user2:after {
     height: 3px;
     width: 30px;
-    translate: 26px calc(-1rem - 0.5px);
+    transform: translate(26px calc(-1rem - 0.5px));
   }
   
   .screen2 > .screen-content2 > .screen-user2 > :is(.name2, .link2) {
