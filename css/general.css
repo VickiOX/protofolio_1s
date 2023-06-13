@@ -892,7 +892,7 @@ padding-top: 108%;
   .screen > .screen-content > .screen-user:before {
     height: 2px;
     width: 50px;
-  translate:(-20px, -1rem);
+    translate:(-20px, -1rem);
     opacity: 0.75;
   }
   
