@@ -45,7 +45,6 @@ section .img_b {
   opacity: 1;
   animation-delay: 0s;
   bottom: 2%;
-  left: -70;
 }
 
 section .wave {
@@ -113,29 +112,29 @@ section .wave.wave4 {
 @keyframes sailing {
   0% {
     transform: translateX(-200px);
-    translate: 0 -40%;
-    rotate: -6deg;
+    transform: translate(0 -40%); 
+    transform: rotate( -6deg);
   }
 
   25% {
-    rotate: -4deg;
-    translate: 25% -60%;
+    transform:rotate(-4deg);
+    transform:translate(25% -60%);
   }
 
   50% {
-    rotate: 6deg;
-    translate: 50% -80%;
+    transform :rotate(6deg);
+    transform: translate(50% -80%);
   }
 
   75% {
-    rotate: -2deg;
-    translate: 75% -40%;
+    transform: rotate(-2deg);
+    transform: translate(75% -40%);
   }
 
   100% {
     transform: translateX(200vh);
-    translate: 100% -10%;
-    rotate: -4deg;
+    transform:translate(100% -10%);
+    transform: rotate(-4deg);
   }
 }
 
@@ -153,7 +152,6 @@ section .wave.wave4 {
     opacity: 1;
     animation-delay: 0s;
     bottom: 2%;
-    left: -100;
   }
 
   section .wave {
@@ -222,29 +220,29 @@ section .wave.wave4 {
   @keyframes sailing {
     0% {
       transform: translateX(-200px);
-      translate: 0 -40%;
-      rotate: -6deg;
+      transform: translate(0 -40px);
+      transform: rotate(-6deg);
     }
 
     25% {
-      rotate: -4deg;
-      translate: 25% -60%;
+      transform: translate(200px -60px);
+      transform: rotate(-4deg);
     }
 
     50% {
-      rotate: 5deg;
-      translate: 50% -70%;
+      transform: translate(400px -70px);
+      transform: rotate(5deg);
     }
 
     75% {
-      rotate: -2deg;
-      translate: 75% -30%;
+      transform: translate(600px -30px);
+      transform: rotate(-2deg);
     }
 
     100% {
-      transform: translateX(200vh);
-      translate: 100% 100%;
-      rotate: -4deg;
+      transform: translateX(800vh);
+      transform: translate(400px 100px);
+      transform: rotate(-4deg);
     }
   }
 }
