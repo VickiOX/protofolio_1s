@@ -221,7 +221,7 @@ section .wave.wave4 {
   @keyframes sailing {
     0% {
       transform: translateX(-200px);
-      translate:(0 -400px);
+      translate:(0, -400px);
       rotate:(-6deg);
     }
 
