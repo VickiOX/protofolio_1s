@@ -88,8 +88,9 @@ html {
   
 
   .nav_link {
-    font-size: 18px;
-    font-weight: 300;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
     background: rgba(212, 210, 210, 0.254);
     box-shadow: 6px 6px 1px 1px rgb(117, 113, 113);
     background-color: rgba(212, 210, 210, 0.748);
@@ -122,7 +123,6 @@ html {
     font-size: 16px;
     color:  #2e2d2e;
     margin-top: 20px;
-
   }
 
   .sticky {
