@@ -40,11 +40,12 @@ footer .footer_text {
   padding-top: 0px;
 }
 section .img_b {
-  animation: sailing 30s linear infinite;
+  animation: sailing 20s ease-in infinite;
   z-index: 999;
   opacity: 1;
   animation-delay: 0s;
-  bottom: 2%;
+  bottom: 10%;
+
 }
 
 section .wave {
@@ -112,29 +113,29 @@ section .wave.wave4 {
 @keyframes sailing {
   0% {
     transform: translateX(-200px);
-    transform: translate(0 -40%); 
-    transform: rotate( -6deg);
+    translate:(400px);
+    rotate:(-6deg);
   }
 
   25% {
-    transform:rotate(-4deg);
-    transform:translate(25% -60%);
+    rotate:(4deg);
+    translate:(200px);
   }
 
   50% {
-    transform :rotate(6deg);
-    transform: translate(50% -80%);
+    rotate:(6deg);
+    translate:(300px);
   }
 
   75% {
-    transform: rotate(-2deg);
-    transform: translate(75% -40%);
+    rotate:(-2deg);
+    translate:(-400px);
   }
 
   100% {
     transform: translateX(200vh);
-    transform:translate(100% -10%);
-    transform: rotate(-4deg);
+    translate:(800px);
+    rotate:(-4deg);
   }
 }
 
@@ -147,11 +148,11 @@ section .wave.wave4 {
   }
 
   section .img_b {
-    animation: sailing 30s linear infinite;
+    animation: sailing 20s ease-in infinite;
     z-index: 999;
     opacity: 1;
     animation-delay: 0s;
-    bottom: 2%;
+    bottom: 10%;
   }
 
   section .wave {
@@ -220,29 +221,29 @@ section .wave.wave4 {
   @keyframes sailing {
     0% {
       transform: translateX(-200px);
-      transform: translate(0 -40px);
-      transform: rotate(-6deg);
+      translate:(0 -400px);
+      rotate:(-6deg);
     }
 
     25% {
-      transform: translate(200px -60px);
-      transform: rotate(-4deg);
+      rotate:(-4deg);
+      translate:(-200px);
     }
 
     50% {
-      transform: translate(400px -70px);
-      transform: rotate(5deg);
+      rotate:(5deg);
+      translate:(-300px);
     }
 
     75% {
-      transform: translate(600px -30px);
-      transform: rotate(-2deg);
+      rotate:(-2deg);
+      translate:(-200px);
     }
 
     100% {
-      transform: translateX(800vh);
-      transform: translate(400px 100px);
-      transform: rotate(-4deg);
+      transform: translateX(200vh);
+      translate:(-500px);
+      rotate:(-4deg);
     }
   }
 }
