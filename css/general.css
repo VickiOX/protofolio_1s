@@ -40,8 +40,7 @@ body{
 
 .main{
   padding-top: 131px;
-  margin-left: 20px;
-margin-right: 20px;
+
 }
 
 
@@ -538,15 +537,15 @@ padding-top: 108%;
 
 .center_omknap{
   display:block !important;
-  text-align: center;
+  text-align: center ;
   border-radius: 0%;
   border: 2px dashed var(--primary-color);
 }
 
 .center-links{
   place-content: center;
-  margin-left: 10% !important;
-  margin-right: 10% !important;
+  margin-left: 10%;
+  margin-right: 10%;
 
 }
 
@@ -712,11 +711,12 @@ padding-top: 108%;
   
   .opgave_img{
     display: block;
-   padding-right: 30%;
+    margin: auto;
   }
 
   .t_img{
-    max-width: 600px;
+    max-width: 700px;
+    padding-left:70px;
   }
 
   .t_mobil_img{
@@ -726,6 +726,40 @@ padding-top: 108%;
   .t_sketch_img{
     max-width: 430px;
   }
+  .center-links{
+    display: block;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    place-content: center;
+  }
+
+  .grid_1-1-1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .padding_left{
+  padding-left:270px;
+  }
+  .margin_center{
+    margin-left:75px !important;
+  }
+
+  .margin_left{
+    margin-left:40px !important;
+  }
+.t3_margin_center{
+  margin-left: 284px  !important;
+}
+ 
+  .grid_1-6-1{
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+ 
+  }
+
+
 
   /*-------VELKOMMEN----------*/
   .grid_1-1-1{
@@ -1139,9 +1173,7 @@ padding-top: 108%;
       grid-template-columns: 1fr 1fr;
     }
 
-    .om_text{
-      font-size: 2.2vh;
-    }
+   
     .padding-top{
       padding-top:100px;
     }
@@ -1197,11 +1229,7 @@ padding-top: 108%;
   
     }
 
-    .t_indhold{
-      padding-right: 60px;
-      padding-left: 60px ;
-      
-    }
+    
 
     .mid_t_text{
       padding-right:20vh;
